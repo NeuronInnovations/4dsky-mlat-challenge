@@ -37,7 +37,8 @@ Multilateration (MLAT) is a technique that uses the time difference of arrival (
 
 **You will need buyer credentials and a list of sellers to buy from.**
 
-Join our Discord channel to get started: [https://discord.gg/RMfwQfgC](https://discord.gg/RMfwQfgC)
+Join our Discord channel to get started: 
+https://discord.gg/GcWmcXbZ
 
 Simply come join, say hi and say that you need creds for the 4dsky mlat challenge. We'll help you get set up with:
 - Buyer credentials to connect to the network
