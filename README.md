@@ -38,6 +38,7 @@ Multilateration (MLAT) is a technique that uses the time difference of arrival (
 ## Get Your Credentials
 
 **You will need buyer credentials and a list of sellers to buy from.**
+
 **Some sellers don't reveal their true location, you will also receive the exact locations to override their reported location **
 
 To kick things off: join our Discord channel to get started: 
