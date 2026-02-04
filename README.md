@@ -23,6 +23,8 @@ This repository is set up as a challenge to help you understand multilateration 
    - Run it again and observe the structured data output
    - You'll see sensor positions, timestamps, and raw ModeS frames
 
+
+
 3. **The Challenge: Can you multilaterate the frames?**
    - The timestamps are super accurate (nanosecond precision)
    - You have sensor positions (latitude, longitude, altitude) for each frame
@@ -36,13 +38,14 @@ Multilateration (MLAT) is a technique that uses the time difference of arrival (
 ## Get Your Credentials
 
 **You will need buyer credentials and a list of sellers to buy from.**
+**Some sellers don't reveal their true location, you will also receive the exact locations to override their reported location **
 
-Join our Discord channel to get started: 
+To kick things off: join our Discord channel to get started: 
 https://discord.gg/GcWmcXbZ
 
-Simply come join, say hi and say that you need creds for the 4dsky mlat challenge. We'll help you get set up with:
+Simply come join, say hi and say that you need creds and locations for the neuron 4Dsky challenge. We'll help you get set up with:
 - Buyer credentials to connect to the network
-- A list of sellers to buy from
+- A list of sellers and locations to buy from (available only on Hackathon kickoff day)
 - Any help you need along the way
 
 If you need help or want to discuss solutions during the challenge, the Discord is the place to be!
@@ -122,7 +125,7 @@ The buyer implementation includes:
 
 ### Seller Mode
 
-The seller case is currently an **empty stub**. The seller callback function is defined but contains no implementation. You can extend this to send ModeS data to connected buyers.
+The seller case is currently an **empty stub** and you don't need to fill it out for this challenge.
 
 ## Two Main Files - Instructional Examples
 
@@ -183,8 +186,6 @@ This application uses the `neuron/ADSB/0.0.2` protocol for peer-to-peer communic
 - `smart_contract_address` - Smart contract address
 - `list_of_sellers` - List of seller peer IDs to connect to
 
-### Seller Environment Variables (`.seller-env`)
-- Similar configuration as buyer, but without `list_of_sellers`
 
 ## Development
 
