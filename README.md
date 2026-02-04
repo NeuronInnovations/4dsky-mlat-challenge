@@ -11,7 +11,7 @@ This program is here to help you understand buying 4dskyEdge data. The applicati
 This repository is set up as a challenge to help you understand multilateration (MLAT) using ModeS data.
 
 ### Challenge Steps:
-
+0. Get credentials from neuron (see below how), port forward 61336 on your router. 
 1. **Try the simple main file** - Get some bytes
    - Start with `main.go` to understand the basic connection
    - Run it and observe the raw byte stream coming from sellers
@@ -39,10 +39,10 @@ Multilateration (MLAT) is a technique that uses the time difference of arrival (
 
 **You will need buyer credentials and a list of sellers to buy from.**
 
-**Some sellers don't reveal their true location, you will also receive the exact locations to override their reported location **
+**Some sellers don't reveal their true location, you will also receive the exact locations to override their reported location**
 
 To kick things off: join our Discord channel to get started: 
-https://discord.gg/GcWmcXbZ
+https://discord.gg/PeAbrrrq7Z
 
 Simply come join, say hi and say that you need creds and locations for the neuron 4Dsky challenge. We'll help you get set up with:
 - Buyer credentials to connect to the network
@@ -56,6 +56,7 @@ If you need help or want to discuss solutions during the challenge, the Discord 
 ### Environment
 - **VS Code** (Visual Studio Code) - Recommended IDE for running this project
 - **Go Extension for VS Code** - Required for Go language support and debugging
+- **Port forward 61336 on your router**
 
 ### Dependencies
 - **Golang** (Go) - Version 1.24.6 or compatible (see `go.mod` for exact version)
